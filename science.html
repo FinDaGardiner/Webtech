@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Science - QUIZ</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<script src="Javascript.js"></script>
+		<div class="center">
+			<h1>Science</h1>
+		</div>
+		
+		
+		
+		<section class="fullWidth">
+			<nav>
+				<ul>
+					<div class="thirdWidth">
+						<li><a href="index.html">Home</a></li>
+					</div>
+					<div class="thirdWidth dropdown">
+						<li><a href="javascript:void(0)" class="dropbtn">Quizzes</a>
+							<div class="dropdown-content">
+								<a href="sports.html">Sport</a>
+								<a href="flags.html">Flags</a>
+								<a href="science.html">Science</a>
+							</div>
+						</li>
+					</div>
+					<div class="thirdWidth">
+						<li><a href="Accessibility.html">Accessibility</a></li>
+					</div>
+				</ul>
+			</nav>
+		</section>
+		<section class="fullWidth">
+			<form id="quizForm">
+			<section class="fullWidth">
+				<section class="halfWidth">
+					<div class="question">
+						<p>What is the largest planet in our solar system?</p>
+						<input type="radio" id="Neptune" name="q1" value="Neptune">
+						<label for="Neptune">Neptune</label><br>
+						<input type="radio" id="Earth" name="q1" value="Earth">
+						<label for="Earth">Earth</label><br>
+						<input type="radio" id="Jupiter" name="q1" value="Jupiter">
+						<label for="Jupiter">Jupiter</label><br>
+						<input type="radio" id="Venus" name="q1" value="Venus">
+						<label for="Venus">Venus</label><br>
+					</div>
+				</section>
+				<section class="halfWidth">
+					<img src="images/earth.png">
+				</section>
+			</section>
+			<section class="fullWidth">
+				<section class="halfWidth">
+				<div class="question">
+					<p>What temperature does water boil?</p>
+					<input type="radio" id="80 degrees celcius" name="q2" value="80 degrees celcius">
+					<label for="80 degrees celcius">80 degrees celcius</label><br>
+					<input type="radio" id="100 degrees celcius" name="q2" value="100 degrees celcius">
+					<label for="100 degrees celcius">100 degrees celcius</label><br>
+					<input type="radio" id="120 degrees celcius" name="q2" value="120 degrees celcius">
+					<label for="120 degrees celcius">120 degrees celcius</label><br>
+					<input type="radio" id="140 degrees celcius" name="q2" value="140 degrees celcius">
+					<label for="140 degrees celcius">140 degrees celcius</label><br>
+				</div>
+				</section>
+				<section class="halfWidth">
+					<img src="images/kettle.png">
+				</section>
+			</section>
+			<section class="fullWidth">
+				<section class="halfWidth">
+					<div class="question">
+						<p>Which element on the Periodic table has the abreviation FE</p>
+						<input type="radio" id="Iron" name="q3" value="Iron">
+						<label for="Iron">Iron</label><br>
+						<input type="radio" id="Hydrogen" name="q3" value="Hydrogen">
+						<label for="Hydrogen">Hydrogen</label><br>
+						<input type="radio" id="Fluorine" name="q3" value="Fluorine">
+						<label for="Fluorine">Fluorine</label><br>
+						<input type="radio" id="Bohrium" name="q3" value="Bohrium">
+						<label for="Bohrium">Bohrium</label><br>
+					</div>
+				</section>
+				<section class="halfWidth">
+					<img src="images/period.png">
+				</section>
+			</section>
+			<section class="fullWidth">
+				<button onclick="checkAnswersScience()">Submit Answers</button>
+			</section>
+			</form>
+		</section>
+		
+		
+	</body>
+</html>
